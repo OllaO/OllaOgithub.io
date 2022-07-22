@@ -1,0 +1,187 @@
+html, body {
+  height: 100%;
+  width: 100%;
+ background-color: #ada7ff;
+   
+}
+
+/* The Title animation  */
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #a663cc;
+  --color-2: #b5179e;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #e7c6ff;
+  --color-2: #ACCFCB;
+  --color-3: #9d4edd;
+}
+
+.title-word-3 {
+  --color-1: #ff90b3;
+  --color-2: #140152;
+  --color-3: #a06cd5;
+}
+
+
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;  
+  text-align: center;
+  height: 4vh;
+
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  text-transform: uppercase;
+ 
+  
+}
+
+/*   end title*/
+
+/*navbar  */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+   font-family:  'Roboto Condensed';
+  font-size: 20px;
+  color: black;
+   border-radius: 4px;
+}
+
+ a:hover {
+  background-color: #b9faf8;
+}
+
+
+.nav {
+  text-align: center;
+ 
+}
+
+li {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+p {
+  font-family: 'Roboto Condensed';
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 4px;
+  color: black;
+  text-align: center;
+  margin-top: 200px;
+  float:left;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+img {
+  text-align: center;
+ justify-content:center;
+  padding: 30px;
+  margin-top: 200px;
+}
+
+img:hover {
+  padding: 0px;
+}
+
+.im1 {
+  display: inline-block;
+  height: 300px;
+  margin: 30px;
+  text-align: center;
+  margin-top: 200px;
+  border-style: solid;
+  border-color: black;
+  margin-left: 140px;
+
+}
+
+.im2 {
+  display: inline-block;
+   height: 300px;
+  text-align: center;
+  margin: 30px;
+  margin-top: 200px;
+  border-style: solid;
+  border-color: black;
+
+ 
+}
+
+
+.im3 {
+   display: inline-block ;
+  height: 300px;
+  text-align: center;
+  margin: 30px;
+  margin-top: 200px;
+  border-style: solid;
+  border-color: black;
+
+
+}
+
+
+.im4 {
+   display: inline-block ;
+  height: 300px;
+  text-align: center;
+  margin: 30px;
+  margin-top: 50px;
+  border-style: solid;
+  border-color: black;
+   
+
+
+}
+
+img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+
+.book {
+  
+}
