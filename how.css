@@ -1,0 +1,236 @@
+html, body {
+  height: 100%;
+  width: 100%;
+ background-image: linear-gradient(to right, #a2d2ff , #8338ec);
+   
+}
+
+/* The Title animation  */
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #a663cc;
+  --color-2: #b5179e;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #e7c6ff;
+  --color-2: #ACCFCB;
+  --color-3: #9d4edd;
+}
+
+.title-word-3 {
+  --color-1: #ff90b3;
+  --color-2: #140152;
+  --color-3: #a06cd5;
+}
+
+
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;  
+  text-align: center;
+  height: 4vh;
+
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  text-transform: uppercase;
+ 
+  
+}
+
+/*   end title*/
+
+/*navbar  */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+   font-family:  'Roboto Condensed';
+  font-size: 20px;
+  color: black;
+   border-radius: 4px;
+}
+
+ a:hover {
+  background-color: #b9faf8;
+}
+
+
+.nav {
+  text-align: center;
+ 
+}
+
+li {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+}
+
+.big {
+   font-family: 'Roboto Condensed';
+  font-size: 25px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 15%;
+  margin-right: 15%; 
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.big:hover {
+  color:white;
+   font-size: 30px;
+  line-height: 27px;
+  letter-spacing: 4px;
+  transition: all .6s ease;
+-webkit-transition: all .6s ease;
+}
+
+
+.lil {
+  font-family: 'Roboto Condensed';
+  font-size: 25px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 15%;
+  margin-right: 15%; 
+}
+
+.book1 {
+  text-align:center;
+  margin-right: 7%;
+  height: 200px;
+  margin-left: 25%;
+}
+
+.book2 {
+  text-align:center;
+  margin-right: 7%;
+  height: 200px;
+
+}
+
+.book3 {
+  text-align:center;
+  margin-right: 7%;
+  height: 200px;
+
+}
+
+
+.loched {
+   font-family: 'Roboto Condensed';
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 3%;
+
+}
+.loched:hover {
+  color:black;
+   font-size: 30px;
+  line-height: 27px;
+  letter-spacing: 4px;
+  transition: all .6s ease;
+-webkit-transition: all .6s ease;
+  margin-bottom: 10px;
+}
+
+
+.info1{
+  font-family: 'Roboto Condensed';
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 30%;
+}
+
+.info2{
+   font-family: 'Roboto Condensed';
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 3%;
+   margin-right: 30%;
+}
+
+
+.inthed {
+     font-family: 'Roboto Condensed';
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 3%;
+}
+
+
+.inthed:hover {
+  color:black;
+   font-size: 30px;
+  line-height: 27px;
+  letter-spacing: 4px;
+  transition: all .6s ease;
+-webkit-transition: all .6s ease;
+  margin-bottom: 10px;
+}
+
+.info3{
+    font-family: 'Roboto Condensed';
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 30%;
+}
